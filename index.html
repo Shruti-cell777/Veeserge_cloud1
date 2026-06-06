@@ -32,32 +32,42 @@
         <div class="header-container">
             <a href="#" class="logo-group" id="logoLink">
                 <!-- SVG Logo representing Veesurge Cloud (Cloud + V + chart + calculator details) -->
-                <svg class="logo-icon" viewBox="0 0 100 80" width="48" height="38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="logo-icon" viewBox="0 0 500 400" width="48" height="38" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <defs>
-                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" stop-color="#3b82f6" />
-                            <stop offset="100%" stop-color="#06b6d4" />
+                        <linearGradient id="logoBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#00a3ff" />
+                            <stop offset="100%" stop-color="#0055ff" />
                         </linearGradient>
                     </defs>
-                    <!-- Cloud outline -->
-                    <path d="M30 45C30 36.7 36.7 30 45 30C46.3 30 47.6 30.2 48.9 30.5C52.4 24.1 59.1 20 66.7 20C77.4 20 86 28.6 86 39.3C86 40.1 85.9 40.9 85.8 41.7C91 43.7 94.7 48.7 94.7 54.7C94.7 62.9 88 69.5 79.7 69.5H30C21.7 69.5 15 62.8 15 54.6C15 48.9 18.2 43.9 23.3 41.5C23.1 40.7 23 39.9 23 39.1C23 34.1 26.1 29.8 30.5 28C30.2 29.1 30 30.3 30 31.5V45Z" fill="url(#logoGrad)" opacity="0.15"/>
-                    <path d="M32 50C25.4 50 20 55.4 20 62C20 68.6 25.4 74 32 74H78C84.6 74 90 68.6 90 62C90 55.4 84.6 50 78 50" stroke="url(#logoGrad)" stroke-width="5" stroke-linecap="round"/>
-                    <!-- V letter combined with a growth chart -->
-                    <path d="M28 42L45 68L68 28" stroke="url(#logoGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-                    <!-- Small chart bars -->
-                    <rect x="52" y="52" width="5" height="12" rx="1" fill="#3b82f6"/>
-                    <rect x="61" y="44" width="5" height="20" rx="1" fill="#06b6d4"/>
-                    <!-- Small calculator icon details -->
-                    <rect x="72" y="53" width="12" height="16" rx="2" fill="#1e293b" stroke="url(#logoGrad)" stroke-width="2"/>
-                    <line x1="75" y1="57" x2="81" y2="57" stroke="url(#logoGrad)" stroke-width="1.5"/>
-                    <circle cx="76" cy="62" r="0.8" fill="#06b6d4"/>
-                    <circle cx="80" cy="62" r="0.8" fill="#3b82f6"/>
-                    <circle cx="76" cy="65" r="0.8" fill="#3b82f6"/>
-                    <circle cx="80" cy="65" r="0.8" fill="#06b6d4"/>
+                    <!-- Cloud Outline -->
+                    <path d="M 210 260 L 140 260 C 90 260 80 200 115 180 C 95 130 160 110 185 145 C 205 70 335 80 335 165 C 335 175 333 185 330 195" stroke="url(#logoBlueGrad)" stroke-width="14" stroke-linecap="round" fill="none" />
+                    <!-- Right bottom segment of cloud -->
+                    <path d="M 353 215 C 363 235 348 260 310 260 L 290 260" stroke="url(#logoBlueGrad)" stroke-width="14" stroke-linecap="round" fill="none" />
+                    <!-- V Left Stem -->
+                    <path d="M 170 148 L 210 148 L 245 240 L 217 240 Z" fill="#0b1c3d" />
+                    <!-- Bar Chart Columns -->
+                    <rect x="255" y="200" width="12" height="40" rx="3" fill="#0b1c3d" />
+                    <rect x="275" y="175" width="12" height="65" rx="3" fill="#0b1c3d" />
+                    <rect x="295" y="150" width="12" height="90" rx="3" fill="#0b1c3d" />
+                    <!-- V Right Stem / Arrow -->
+                    <path d="M 221 240 C 275 195 325 155 375 110" stroke="url(#logoBlueGrad)" stroke-width="14" stroke-linecap="round" fill="none" />
+                    <polygon points="345,108 385,102 374,142" fill="url(#logoBlueGrad)" />
+                    <!-- Calculator -->
+                    <rect x="330" y="190" width="54" height="70" rx="8" fill="#0b1c3d" />
+                    <rect x="338" y="198" width="38" height="14" rx="2" fill="#ffffff" />
+                    <rect x="338" y="218" width="10" height="8" rx="1.5" fill="#ffffff" />
+                    <rect x="352" y="218" width="10" height="8" rx="1.5" fill="#ffffff" />
+                    <rect x="366" y="218" width="10" height="8" rx="1.5" fill="#ffffff" />
+                    <rect x="338" y="230" width="10" height="8" rx="1.5" fill="#ffffff" />
+                    <rect x="352" y="230" width="10" height="8" rx="1.5" fill="#ffffff" />
+                    <rect x="366" y="230" width="10" height="8" rx="1.5" fill="#ffffff" />
+                    <rect x="338" y="242" width="10" height="8" rx="1.5" fill="#ffffff" />
+                    <rect x="352" y="242" width="10" height="8" rx="1.5" fill="#ffffff" />
+                    <rect x="366" y="242" width="10" height="8" rx="1.5" fill="url(#logoBlueGrad)" />
                 </svg>
                 <div class="logo-text">
-                    <span class="brand-name">Veesurge Cloud</span>
-                    <span class="brand-sub">ACCOUNTING & CLOUD SOLUTIONS</span>
+                    <span class="brand-name"><span style="color: #0b1c3d;">Veesurge</span> <span style="color: #0055ff;">Cloud</span></span>
+                    <span class="brand-sub" style="letter-spacing: 0.08em;">— AND ACCOUNTING SOLUTIONS —</span>
                 </div>
             </a>
 
@@ -694,14 +704,48 @@
         <div class="container footer-grid">
             <div class="footer-brand">
                 <div class="logo-group">
-                    <!-- SVG logo replicate -->
-                    <svg class="logo-icon" viewBox="0 0 100 80" width="36" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M32 50C25.4 50 20 55.4 20 62C20 68.6 25.4 74 32 74H78C84.6 74 90 68.6 90 62C90 55.4 84.6 50 78 50" stroke="#3b82f6" stroke-width="5" stroke-linecap="round"/>
-                        <path d="M28 42L45 68L68 28" stroke="#06b6d4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+                    <!-- SVG logo replicate (Dark-background version) -->
+                    <svg class="logo-icon" viewBox="0 0 500 400" width="36" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="logoBlueGradFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#38bdf8" />
+                                <stop offset="100%" stop-color="#0284c7" />
+                            </linearGradient>
+                        </defs>
+                        <!-- Cloud Outline -->
+                        <path d="M 210 260 L 140 260 C 90 260 80 200 115 180 C 95 130 160 110 185 145 C 205 70 335 80 335 165 C 335 175 333 185 330 195" stroke="url(#logoBlueGradFooter)" stroke-width="14" stroke-linecap="round" fill="none" />
+                        <!-- Right bottom segment of cloud -->
+                        <path d="M 353 215 C 363 235 348 260 310 260 L 290 260" stroke="url(#logoBlueGradFooter)" stroke-width="14" stroke-linecap="round" fill="none" />
+                        <!-- V Left Stem (White) -->
+                        <path d="M 170 148 L 210 148 L 245 240 L 217 240 Z" fill="#ffffff" />
+                        <!-- Bar Chart Columns (White) -->
+                        <rect x="255" y="200" width="12" height="40" rx="3" fill="#ffffff" />
+                        <rect x="275" y="175" width="12" height="65" rx="3" fill="#ffffff" />
+                        <rect x="295" y="150" width="12" height="90" rx="3" fill="#ffffff" />
+                        <!-- V Right Stem / Arrow -->
+                        <path d="M 221 240 C 275 195 325 155 375 110" stroke="url(#logoBlueGradFooter)" stroke-width="14" stroke-linecap="round" fill="none" />
+                        <polygon points="345,108 385,102 374,142" fill="url(#logoBlueGradFooter)" />
+                        <!-- Calculator (White Body) -->
+                        <rect x="330" y="190" width="54" height="70" rx="8" fill="#ffffff" />
+                        <!-- Calculator Screen (Dark) -->
+                        <rect x="338" y="198" width="38" height="14" rx="2" fill="#0f172a" />
+                        <!-- Calculator Keys (Dark) -->
+                        <!-- Row 1 -->
+                        <rect x="338" y="218" width="10" height="8" rx="1.5" fill="#0f172a" />
+                        <rect x="352" y="218" width="10" height="8" rx="1.5" fill="#0f172a" />
+                        <rect x="366" y="218" width="10" height="8" rx="1.5" fill="#0f172a" />
+                        <!-- Row 2 -->
+                        <rect x="338" y="230" width="10" height="8" rx="1.5" fill="#0f172a" />
+                        <rect x="352" y="230" width="10" height="8" rx="1.5" fill="#0f172a" />
+                        <rect x="366" y="230" width="10" height="8" rx="1.5" fill="#0f172a" />
+                        <!-- Row 3 -->
+                        <rect x="338" y="242" width="10" height="8" rx="1.5" fill="#0f172a" />
+                        <rect x="352" y="242" width="10" height="8" rx="1.5" fill="#0f172a" />
+                        <rect x="366" y="242" width="10" height="8" rx="1.5" fill="url(#logoBlueGradFooter)" />
                     </svg>
                     <div class="logo-text">
-                        <span class="brand-name">Veesurge Cloud</span>
-                        <span class="brand-sub">ACCOUNTING & CLOUD SOLUTIONS</span>
+                        <span class="brand-name"><span style="color: #ffffff;">Veesurge</span> <span style="color: #60a5fa;">Cloud</span></span>
+                        <span class="brand-sub" style="color: #38bdf8; letter-spacing: 0.08em;">— AND ACCOUNTING SOLUTIONS —</span>
                     </div>
                 </div>
                 <p class="footer-about">Smart Solutions. Best Prices. Accelerate your database operations, secure files, and enable global synchronization.</p>
